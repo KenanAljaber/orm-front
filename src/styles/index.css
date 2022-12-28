@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    font-family:  sans-serif;
+}
+.homePage{
+    height: 100vw;
+
+}
+
+.addProvinciaContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ input{
+padding: 10px;
+border-radius: 8px;
+border-style: none;
+font-family: sans-serif;
+margin: 5px;
+}
+
+ button{
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    font-family: sans-serif;
+    margin: 5px;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.added{
+    background-color: #d6000096;
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+    width: 450px;
+    z-index: 100;
+    position: fixed;
+    left: 25%;
+    border-radius: 20px;
+    display: none;
+}
+
+.provsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.provRow{
+    background-color: rgba(127, 255, 212, 0.781);
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.provRow:hover{
+    background: black;
+    color: aquamarine;
+    cursor: pointer;
+}
+.addBar{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 5px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 180px;
+    font-size: 15px;
+    display: inline;
+    align-self: self-end;
+}
+.delete:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
